@@ -1,0 +1,17 @@
+{
+    "admin" : {
+        "username" : "admin",
+        "surname" : "Administrateur",
+        "password" : "admin"
+    },
+    "martinerwa" : {
+        "username" : "martinerwa",
+        "surname" : "Erwan Martin",
+        "password" : "admin"
+    },
+    "mezouarabd" : {
+        "username" : "mezouarabd",
+        "surname" : "Abdallah Mezouar",
+        "password" : "admin"
+    }
+}

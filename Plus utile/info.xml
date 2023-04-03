@@ -1,0 +1,113 @@
+<categories>
+<Mangas>
+	<obj1>
+		<reference>m01</reference>
+		<designation> Attaque des Titans Tome 1 </designation>
+		<prix> 6,95€ </prix>
+		<stock> 50 </stock>
+		<image> /img/mangas/snk1head.jpg</image>
+	</obj1>
+	<obj2>
+		<reference>m02</reference>
+		<designation> Bleach Tome 1 </designation>
+		<prix> 2,99€ </prix>
+		<stock> 50 </stock>
+		<image>/img/mangas/bleach1head.jpg</image>
+	</obj2>
+	<obj3>
+		<reference>m03</reference>
+		<designation> Dragon Ball Tome 1 </designation>
+		<prix> 6,90€ </prix>
+		<stock> 50 </stock>
+		<image> /img/mangas/db1head.jpeg</image>
+	</obj3>
+	<obj4>
+		<reference>m04</reference>
+		<designation> Naruto Tome 1 </designation>
+		<prix> 2,99€ </prix>
+		<stock> 50 </stock>
+		<image>/img/mangas/naruto1head.jpg</image>
+	</obj4>
+	<obj5>
+		<reference>m05</reference>
+		<designation> One piece Tome 1 </designation>
+		<prix> 3,99€ </prix>
+		<stock> 50 </stock>
+		<image>/img/mangas/op1head.jpg</image>
+	</obj5>
+</Mangas>
+<figurines>
+	<obj1>
+		<reference>f01</reference>
+		<designation> Attaque des Titans Figurine LivaiVsTitanBestial </designation>
+		<prix> 599,99€ </prix>
+		<stock> 0 </stock>
+		<image>/img/figurines/snk1figurine.png</image>
+	</obj1>
+	<obj2>
+		<reference>f02</reference>
+		<designation> Bleach Figurine Ulquiorra </designation>
+		<prix> 249,99€ </prix>
+		<stock> 3 </stock>
+		<image> /img/figurines/bleach1figurine.png</image>
+	</obj2>
+	<obj3>
+		<reference>f03</reference>
+		<designation> Dragon Ball Figurine Goku </designation>
+		<prix> 39,99€ </prix>
+		<stock> 50 </stock>
+		<image>/img/figurines/db1figurine.jpeg</image>
+	</obj3>
+	<obj4>
+		<reference>f04</reference>
+		<designation> Naruto Figurine Naruto </designation>
+		<prix> 39,99€ </prix>
+		<stock> 26 </stock>
+		<image>/img/figurines/naruto1fig.jpg</image>
+	</obj4>
+	<obj5>
+		<reference>f05</reference>
+		<designation> One piece Figurine Zoro </designation>
+		<prix> 399,99€ </prix>
+		<stock> 2 </stock>
+		<image>/img/figurines/op1figurine.jpg</image>
+	</obj5>
+</figurines>
+<goodies>
+	<obj1>
+	<reference>g01</reference>
+		<designation> Attaque des Titans Cape Bataillon Exploration </designation>
+		<prix> 19,90€ </prix>
+		<stock> 50 </stock>
+		<image>/img/goodies/goodiesnk.png</image>
+	</obj1>
+	<obj2>
+	<reference>g02</reference>
+		<designation> Bleach Tableau Incarnation Gestuga</designation>
+		<prix> 29,90€ </prix>
+		<stock> 30 </stock>
+		<image>/img/goodies/goodiesbleach.png</image>
+	</obj2>
+	<obj3>
+	<reference>g03</reference>
+		<designation> Dragon Ball Tasse Arc Black Goku </designation>
+		<prix> 9,90€ </prix>
+		<stock> 100 </stock>
+		<image>/img/goodies/goodiesdb.png</image>
+	</obj3>
+	<obj4>
+	<reference>g04</reference>
+		<designation> Naruto Bandeau Konoha </designation>
+		<prix> 9,90€ </prix>
+		<stock> 80 </stock>
+		<image>/img/goodies/goodiesnaruto.png</image>
+	</obj4>
+	<obj5>
+	<reference>g05</reference>
+		<designation> One piece Katana "Enma" </designation>
+		<prix> 39,90€ </prix>
+		<stock> 20 </stock>
+		<image>/img/goodies/goodiesop.PNG</image>
+	</obj5>
+</goodies>
+</categories>

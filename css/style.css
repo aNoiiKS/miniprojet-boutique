@@ -1,0 +1,496 @@
+
+ /* Importation de la police Permanent Marker depuis un lien externe */
+
+@font-face {
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/permanentmarker/v10/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Cfw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+ /* Ajustement dynamique des sections */
+
+@media (max-width: 850px) {
+    .row {
+        flex-direction: column;
+    }
+	
+    header div:nth-child(2) {
+        display: none;
+    }
+
+	
+    .navhead {
+        display: none;
+    }
+}
+
+ /* Compartiment en bloc du site */
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #ECECEC;
+    margin: 0;
+}
+
+ /* Header du site */
+
+header {
+    background-color: #ECECEC;
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+header div:first-child {
+    flex: 25%;
+    margin-left: 20px;
+}
+
+header div:nth-child(2) {
+    flex: 50%;
+}
+
+header div:last-child {
+    flex: 25%;
+    margin-right: 20px;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header div:first-child img {
+    height: 64px;
+    transition: 1s;
+}
+
+header div:first-child img:hover {
+    transform: rotate(-360deg);
+}
+
+header div:nth-child(2) img {
+    height: 80px;
+    transition: 1s;
+}
+
+header table {
+    border-collapse:collapse;
+}
+
+header table label {
+    font-size: 13px;
+    text-align: left;
+}
+
+header table input {
+    width: inherit;
+    margin: 1px;
+    padding: 4px;
+    border-radius: 8px;
+    transition: 0.3s;
+    background-color: ghostwhite;
+    border: 1px solid black;
+    
+}
+
+header table input:focus {
+    opacity: 0.8;
+    border: 1px solid grey;
+}
+
+
+ /* Barre de navigation horizontale */
+
+.navhead {
+    background-color: #ECECEC;
+}
+.navhead ul {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.navhead ul li {
+    display: inline;
+    list-style: none;
+}
+
+.navhead ul li a {
+    font-size:18px;
+    text-decoration: none;
+    color: #687864;
+    font-family: 'Permanent Marker';
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+.navhead ul li a:hover {
+    background-color: #C0C0C0;
+	color: black;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    min-height: 71.4vh;
+}
+
+ /* Navigation verticale */
+.row section:first-child {
+    background-color: #ECECEC;
+    width: inherit;
+    flex: 25%;
+}
+
+.row section:first-child img:first-child {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    height: 60px;
+    transition: 1s;
+}
+
+.row section:first-child img:first-child:hover {
+    transform: scaleX(1.5);
+}
+
+.row section:first-child nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.row section:first-child nav ul li {
+    list-style: none;
+}
+
+.row section:first-child nav ul li h4 {
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    color: black;
+    font-family: 'Permanent Marker';
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.row section:first-child nav ul li a {
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Permanent Marker';
+    text-decoration: none;
+    color: #687864;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid black;
+    transition: 0.3s;
+}
+
+.row section:first-child nav ul li:first-child a {
+    border-bottom: 1px solid black;
+}
+
+.row section:first-child nav ul li:last-child {
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Permanent Marker';
+    color: black;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid black;
+}
+
+.row section:first-child nav ul li a:hover {
+    background-color: #C0C0C0;
+	color: black;
+    opacity: 0.8;
+}
+
+/* Contenu de ladite page */
+
+.hidden {
+    display: none !important;
+}
+
+.row section:last-child {
+    flex: 75%;
+    padding: 20px;
+    background-color: #F8F8FF;
+	border-left: 1px solid black;
+    min-height: 430px;
+}
+
+.row section:last-child article:last-child h2 {
+    text-align: center;
+    color: #C0C0C0;
+    font-family: 'Permanent Marker';
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.row section:last-child button:not(.row section:last-child table tr td:last-child div button):last-child {
+    text-align: center;
+    width: 15%;
+    margin : 20px auto 0 auto;
+    display: block;
+}
+
+ /* Footer */
+
+ footer {
+    background-color: #ECECEC;
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 5px;
+}
+
+footer h4 {
+    text-align: center;
+    color: grey;
+    font-family: 'Permanent Marker';
+    margin: 0;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    text-align: center;
+    color: grey;
+    font-family: 'Permanent Marker';
+    margin: 0;
+}
+
+footer p a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* ************************Page contenu************************* */
+/* Accueil */
+#home img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70%;
+	width: 50%;
+}
+#home p {
+	text-align: center;
+	font-family: 'Permanent Marker';
+}
+
+#home p a {
+    color: grey;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+/* Tableau */
+
+td img{
+	/* Je regle la taille de l'image de sorte que ça rentre dans la partie principale sans deborder (à adapter si besoin) ATTENTION : j'applique cette contrainte à TOUTES 
+les images donc si tu veux rajouter des images hors tableau faudra lui donner un id et écrire img:not(id)	*/
+	height:60px;
+    transition: 0.5s;
+}
+
+td img:hover {
+    transform: scale(4);
+}
+
+.row section:last-child table {
+	/* Le width ici correspond au % occupé par le tableau dans la partie principale */
+	width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+	/* Épaisseur des bordues du tableau + couleur */
+	border:2px black;
+	/* Colle les bordures entre elles */
+	border-collapse:collapse;
+}
+
+/* Style ajouter Commande */
+.row section:last-child table tr td:last-child div {
+    display: flex;
+    justify-content: center;
+}
+
+#stock {
+    width: inherit;;
+}
+
+#less, #plus {
+    display: block;
+    flex: 40%;
+    text-align: center;
+}
+
+.row section:last-child table tr td:last-child div p {
+    text-align: center;
+    flex: 20%;
+    display: block;
+}
+
+#addPanier {
+    width: 90%;
+    margin: 5px auto 5px auto;
+}
+
+td:not(#Contact table td) {
+	color: black;
+    font-family: 'Permanent Marker';
+    text-align: center;
+}
+
+section h2{
+	font-family:'Permanent Marker';
+    text-align: center;
+
+}
+
+#sort {
+    display:flex;
+    width:75%;
+    margin: 15px auto 0 auto;
+}
+
+#sort button {
+    margin:0;
+    width:33%;
+}
+
+
+/* *************************************************** Formulaire contact***************************************************  */
+/* ici j'applique les paramètres sur tous les inputs sauf ceux du type radio car ils sont à part */
+input:not(.genre, header input),textarea,button{
+	width:100%;
+	padding:15px 10px;
+	margin:1px;
+	border-radius:8px;
+    transition: 0.3s;
+	background-color: #dedcdc;
+	border: none;
+}
+
+input:not(.genre, header input):focus,textarea:focus,button:focus{
+    opacity: 0.8;
+	background-color: grey;
+	border: 1px solid black;
+}
+
+textarea{
+	background-color: #dedcdc;
+	height:120px;
+	vertical-align: top;
+}
+label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 90px;
+    font-family:'Permanent Marker';
+}
+
+button {
+	/* La valeur 7.2em est la valeur qui permet d'à peu près aligner le bouton avec les autres étiquettes */
+	font-family:'Permanent Marker';
+    transition: 0.3s;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding: 5px;
+}
+
+button:hover {
+	background-color: grey;
+    color: white;
+    opacity: 0.9;
+}
+
+select {
+    width: 75%;
+}
+
+#Contact h2{
+	font-family:'Permanent Marker';
+	text-align:center;
+}
+
+#Contact table {
+	width:inherit;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+#Contact table tr td {
+    padding: 4px;
+}
+
+#Contact table tr td:first-child {
+    width: 25%;
+}
+
+#Contact table tr td:first-child:not(tr:last-child td) {
+    text-align: left;
+}
+
+#Contact table tr:nth-child(4) td:last-child {
+    text-align: center;
+}
+
+#Contact table tr:last-child td {
+    text-align: center;
+}
+
+
+
+.Disconnect {
+	font-family:'Permanent Marker';
+    transition: 0.3s;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding: 5px;
+	margin:1px;
+	border-radius:8px;
+    transition: 0.3s;
+	background-color: #dedcdc;
+	border: none;
+}
+
+.Disconnect:hover {
+    background-color: grey;
+    color: white;
+    opacity: 0.9;
+}
+
+.Disconnect:focus {
+    opacity: 0.8;
+	background-color: grey;
+	border: 1px solid black;
+}
+
+	
